@@ -37,8 +37,8 @@ def save():
         if is_ok:
             with open("data.txt", "a") as data:
                 data.write(f"{web} | {em} | {passwrd}\n")
-            website_entry.delete(0, END)
-            password_entry.delete(0, END)
+                website_entry.delete(0, END)
+                password_entry.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
